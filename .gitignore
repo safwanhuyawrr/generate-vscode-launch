@@ -1,0 +1,34 @@
+# Ignore VS Code workspace settings folder
+.vscode/
+
+# Ignore environment variables file (contains secrets)
+.env
+
+# macOS system files
+.DS_Store
+
+# Linux system files
+*~
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+
+# If you have shell history or temp files
+*.bak
+
+# Node.js dependencies if any (optional)
+node_modules/
+
+# Python bytecode (optional)
+__pycache__/
+*.py[cod]
+
+# Compiled binaries or build artifacts (optional)
+bin/
+build/
+
+# .idea folder for JetBrains IDEs (optional)
+.idea/
